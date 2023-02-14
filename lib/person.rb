@@ -1,12 +1,12 @@
-class Person
-    def talk 
-        puts "Hello World!" 
-    end
-    def walk
+class Person 
+    def walk 
         puts "The Person is walking" 
+    end
+     def talk
+        puts "Hello World!"
     end
 end
 
-person1 = Person.new
-person1.talk
-person1.walk
+ada = Person.new
+ada.talk
+ada.walk
